@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="f25a216c-0355-499c-b567-8acccea0f2ed" ChangeDateTime="05/08/2020 23:29:41">
+    <Property Name="ElementName" Value="[dbo].[Cliente].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Cliente]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IdCliente" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="94cb37c3-b6fe-492c-bd65-430ecd7a50ef" ChangeDateTime="05/08/2020 23:31:48">
+    <Property Name="ElementName" Value="[dbo].[FabricantesDeAutos].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[FabricantesDeAutos]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IdFabricanteDeAuto" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="29a9e97f-9d6b-4744-8b8c-46d83ea25611" ChangeDateTime="05/08/2020 23:32:12">
+    <Property Name="ElementName" Value="[dbo].[FabricantesDeAutos].[nombre]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[FabricantesDeAutos]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Nombre" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="668e5654-ef4a-4c71-a228-4e23d03f41ce" ChangeDateTime="05/08/2020 23:35:07">
+    <Property Name="ElementName" Value="[dbo].[FabricantesDePieza].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[FabricantesDePieza]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IdFabricanteDePieza" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="5257611b-45b9-4462-9622-2164bec6d66d" ChangeDateTime="05/08/2020 23:39:47">
+    <Property Name="ElementName" Value="[dbo].[TiposDeAuto].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TiposDeAuto]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IdTipoDeAuto" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="08cdf19e-d284-4e3d-8410-c7a75ac7ee01" ChangeDateTime="05/09/2020 00:19:21">
+    <Property Name="ElementName" Value="[dbo].[Persona].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Persona]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Cedula" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="98c56e12-6bf5-4b4d-8237-be181b149578" ChangeDateTime="05/09/2020 00:27:51">
+    <Property Name="ElementName" Value="[dbo].[TelefonosPersona].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TelefonosPersona]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="CedulaPersona" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="68e1db8a-60d4-492b-9448-4365f99cdd0f" ChangeDateTime="05/09/2020 00:34:23">
+    <Property Name="ElementName" Value="[dbo].[Organizacion].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Organizacion]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="CedulaJuridica" />
+  </Operation>
+</Operations>
